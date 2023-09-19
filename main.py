@@ -1,4 +1,5 @@
-from llama import run_model
+from llama import run
 
-response = run_model("How should i hold a glass of chilled white wine")
+query = input("Enter your query: ")
+response = run(query)
 print(response)
